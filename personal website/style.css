@@ -37,3 +37,12 @@ h4{
     color: white;
     text-align: center;
 }
+figcaption{
+    color: white;
+    text-align: center;
+    font-size: xx-small;
+}
+.row{
+    float: center;
+    padding: 10px;
+}
