@@ -1,23 +1,28 @@
 body {
     background-color: black;
+    font-family: "Lucida Console";
 }
 
 h1 {
     color: white;
     text-align: center;
+    font-family: "Lucida Console";
 }
 
 p{
     color: white;
     text-align: center;
+    font-family: "Lucida Console";
 }
 h2{
     color: white;
     text-align: center;
+    font-family: "Lucida Console";
 }
 h3{
     color: white;
     text-align: center;
+    font-family: "Lucida Console";
 }
 img {
     display: block;
@@ -27,13 +32,22 @@ ol{
     color: white;
     text-align: center;
     list-style-position:inside;
+    font-family: "Lucida Console";
 }
 ul{
     color: white;
     text-align: center;
     list-style-position:inside;
+    font-family: "Lucida Console";
 }
 h4{
     color: white;
     text-align: center;
+    font-family: "Lucida Console";
+}
+figcaption{
+    color: white;
+    text-align: center;
+    font-size: x-small;
+    font-family: "Lucida Console";
 }
