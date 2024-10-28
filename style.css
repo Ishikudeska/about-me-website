@@ -25,13 +25,17 @@ body {
     overflow-y: auto; /* Scroll if content overflows */
 }
 
+.main_shit {
+    text-align: left;
+}
+
 /* Align all text elements in the console */
 h1 {
     color: #00FF00; /* Console green text */
     text-align: center;
 }
 
-h1,h2,h3,h4 {
+h1 {
     padding: 30px;
     text-align:center;
 }
@@ -50,28 +54,6 @@ ol, ul {
 img {
     display: block;
     margin: 0 auto;
-}
-
-/* Input area styling to mimic command line */
-input[type="text"], textarea {
-    background-color: black;
-    color: #00FF00;
-    border: none;
-    outline: none;
-    font-family: 'Courier New', Courier, monospace;
-    width: 100%;
-}
-
-/* Flashing caret animation for input */
-input::placeholder {
-    color: #00FF00;
-    opacity: 1;
-    animation: caret 1s step-start infinite;
-}
-
-/* Caret animation */
-@keyframes caret {
-    50% { opacity: 0; }
 }
 
 /* Ensures images and other content fit within the page */
@@ -95,4 +77,9 @@ input::placeholder {
     margin: auto;
     display: block;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 1px;
 }
