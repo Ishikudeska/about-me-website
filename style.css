@@ -1,85 +1,14 @@
-/* Basic reset for console-like layout */
+html {
+    background-color: black;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    display: block;
-    text-spacing-trim: 600px; /* Adjust text spacing */
-    text-rendering: optimizeLegibility; /* Ensure text is legible */
-    -webkit-font-smoothing: antialiased; /* Ensure text is smooth */
-    -moz-osx-font-smoothing: grayscale; /* Ensure text is smooth */
+    font-family: monospace;
 }
 
-/* Console style body */
-body {
-    background-color: black; /* Dark background */
-    color: #00FF00; /* Light green console text */
-    font-family: 'Courier New', Courier, monospace; /* Monospace font */
-    font-size: 1rem; /* Adjust text size */
-    line-height: 1.5;
-    height: 100vh; /* Full viewport height */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 10px;
-    overflow-y: auto; /* Scroll if content overflows */
-}
-
-.main_shit {
-    text-align: left;
-}
-
-/* Align all text elements in the console */
-h1 {
-    color: #00FF00; /* Console green text */
-    text-align: center;
-}
-
-h1 {
-    padding: 30px;
-    text-align:center;
-}
-
-p, ul, ol {
-    padding: 10px;
-}
-
-/* Ensure lists also appear like console text */
-ol, ul {
-    list-style-position: inside;
-    color: #00FF00;
-}
-
-/* Center images with margin auto */
-img {
-    display: block;
-    margin: 0 auto;
-}
-
-/* Ensures images and other content fit within the page */
-.row {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-/* Media query for prefers-color-scheme */
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: white;
-        color: black;
-    }
-    h1, h2, h3, h4, p, ol, ul {
-        color: black;
-    }
-}
-.Demolay-logo {
-    margin: auto;
-    display: block;
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    font-size: 1px;
+.terminaltext {
+    color: rgb(0, 194, 0);
+    font-size: 14px;
 }
